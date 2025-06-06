@@ -652,8 +652,8 @@ if __name__ == '__main__':
     merged=sys.argv[4]
     selected_class=getattr(sys.modules[__name__], mode)
     nowtime = datetime.now().strftime("%Y%m%d")
-    upload_path="/data1/lampp/htdocs/MLPA/upload"+'/'+pid
-    results_path='/data1/lampp/htdocs/MLPA/results'
+    upload_path="/the/path/"
+    results_path="/the/path"
     folder_name=input_zip.split('.')[0]
 
     upload_folder=upload_path+'/'+folder_name
